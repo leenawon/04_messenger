@@ -25,8 +25,6 @@ export interface responseProps {
   msg: string;
 }
 
-// Array<MessageListProps> | Array<userInfoProps>
-
 export interface replyProps {
   userName: string;
   content: string;
