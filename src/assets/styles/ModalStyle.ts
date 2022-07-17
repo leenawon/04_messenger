@@ -79,7 +79,7 @@ const UserSelectionBox = styled.footer`
   text-align: right;
 `;
 
-const UserCancle = styled.button`
+const UserCancel = styled.button`
   padding: 8px 20px;
   border-radius: 5px;
   font-size: 12px;
@@ -88,7 +88,7 @@ const UserCancle = styled.button`
   cursor: pointer;
 `;
 
-const UserDelete = styled(UserCancle)`
+const UserDelete = styled(UserCancel)`
   margin-left: 12px;
   color: white;
   background-color: ${({ theme }) => theme.modalRed};
@@ -104,7 +104,7 @@ const ModalStyle = {
   UserWarning,
   ModalContent,
   UserSelectionBox,
-  UserCancle,
+  UserCancel,
   UserDelete,
 };
 
